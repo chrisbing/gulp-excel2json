@@ -1,8 +1,12 @@
 {
   "name": "gulp-excel2json",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Excel (XLSX/XLS) to json",
   "main": "index.js",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisbing/gulp-excel2json.git"
+  },
   "files": [
     "index.js"
   ],
