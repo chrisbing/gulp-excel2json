@@ -1,12 +1,11 @@
 {
   "name": "gulp-excel2json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Excel (XLSX/XLS) to json",
   "main": "index.js",
   "files": [
     "index.js"
   ],
-  "readme": "ERROR: No README data found!",
   "dependencies": {
     "gulp-util": "^3.0.7",
     "through2": "^2.0.0",
