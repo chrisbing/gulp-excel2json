@@ -26,7 +26,7 @@ var toJson = function (fileName, headRow, valueRow) {
     for (var key in worksheet) {
         if (worksheet.hasOwnProperty(key)) {
             var cell = worksheet[key];
-            var match = /([A-Z]+)(\d)/.exec(key);
+            var match = /([A-Z]+)(\d+)/.exec(key);
             if (!match) {
                 continue;
             }
